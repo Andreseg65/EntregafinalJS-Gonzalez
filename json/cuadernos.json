@@ -1,0 +1,19 @@
+[
+    {
+      "codigo": "000001",
+      "nombre": "Cuaderno A4",
+      "tipo": "Espiral",
+      "categoria": "Escolar",
+      "precio": 150,
+      "cantidad": 10
+    },
+    {
+      "codigo": "000002",
+      "nombre": "Cuaderno Profesional",
+      "tipo": "Tapa dura",
+      "categoria": "Oficina",
+      "precio": 250,
+      "cantidad": 5
+    }
+  ]
+  

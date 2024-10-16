@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario de Cuadernos</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Administración de Inventario de Cuadernos</h1>
+    
+    <!-- Formulario para agregar cuadernos -->
+    <div id="formulario">
+        <input type="number" id="codigo" placeholder="Código del cuaderno">
+        <input type="text" id="nombre" placeholder="Nombre del cuaderno">
+        <input type="text" id="tipo" placeholder="Tipo de cuaderno">
+        <input type="text" id="categoria" placeholder="Categoría del cuaderno">
+        <input type="text" id="precio" placeholder="Precio">
+        <input type="number" id="cantidad" placeholder="Cantidad">
+        <button id="agregarBtn">Agregar Cuaderno</button>
+    </div>
+
+    <div id="mensaje"></div> 
+
+    <!-- Sección de filtros -->
+    <h2>Filtrar Inventario</h2>
+    <div id="filtros">
+        <div class="filtro">
+            <input type="text" id="filtrarTipo" placeholder="Filtrar por tipo">
+            <button id="filtrarTipoBtn">Filtrar por Tipo</button>
+        </div>
+        <div class="filtro">
+            <input type="text" id="filtrarCategoria" placeholder="Filtrar por categoría">
+            <button id="filtrarCategoriaBtn">Filtrar por Categoría</button>
+        </div>
+    </div>
+
+    <!-- Inventario mostrado en esta sección -->
+    <h2>Inventario</h2>
+    <div id="inventario"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
